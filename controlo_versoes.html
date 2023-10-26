@@ -27,7 +27,11 @@
         <code>git add ficheiro1 ficheiro2</code><br>
         para adicionar todos os ficheiros e pastas no staging area <code>git add.</code>
     </p>
-    <p>para gravar um snapshot do programa: <code>git commit -m "pequena descricao"</code></p>
+    <p>Remover ficheiro da staged area sem remover do sistema: 
+    <code>git reset nomeficheiro</code><br>
+    ou <br>
+    <code>git restore --staged nomeficheiro</code></p>
+    <p>Gravar snapshot do programa: <code>git commit -m "pequena descricao"</code></p>
     <a href="https://git-scm.com/about/staging-area" target="_blank"><img src="img/staging_area.png" alt=""></a>
     <p>listar detalhadamente as versoes: <code>git log</code></p>
     <img src="img/Screenshot 2023-10-26 191226.png" alt="">
@@ -37,6 +41,13 @@
     <p><h2>Configurar identidade</h2></p>
     <p><code>git config --global user.name "username"</code></p>
     <p><code>git config --global user.mail "email"</code></p>
+    <hr>
+    <h2>Ramificacoes do codigo</h2>
+    <p>listar os ramos: <code>git branch</code> </p>
+    <p>criar nova ramificacao/branch:<code>git branch nomeDoRamo</code></p>
+    <p>Para mudar de ramo: <code>git switch nomeDoRamo</code> </p>
+    <hr>
+    <p><a href="https://training.github.com/">Mais configuracoes</a></p> 
     </div>
   </body>
 </html>
