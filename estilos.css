@@ -1,13 +1,29 @@
-html{background-color: rgb(20, 20, 20);
-color: white;
-font-family: 'Courier New', Courier, monospace;}
-
-div{
-    border: 2px solid red;
-    width: 40vw;
-    margin-left: 30%;
-    text-align: center;
+html {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
 }
 
-img{width: 30vw;
-margin: auto;}
+div {
+  border: 2px solid grey;
+  width: 40vw;
+  margin-left: 30%;
+  text-align: center;
+}
+
+img {
+  width: 30vw;
+  margin: auto;
+}
+
+code {
+  color: #cd9f00;
+}
+
+a {
+  color: #f54d27;
+}
+
+a:hover {
+  color: #00909a;
+}
